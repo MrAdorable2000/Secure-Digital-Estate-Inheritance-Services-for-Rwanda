@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006633"/>
+      <stop offset="50%" stop-color="#004d26"/>
+      <stop offset="100%" stop-color="#003319"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#heroGrad)"/>
+  <!-- Subtle R-DEIP text in background -->
+  <text x="600" y="280" font-family="Arial, Helvetica, sans-serif" font-size="200" font-weight="900" fill="rgba(255,255,255,0.04)" text-anchor="middle" letter-spacing="30">R-DEIP</text>
+  <!-- Abstract geometric shapes -->
+  <rect x="80" y="80" width="120" height="120" rx="8" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" transform="rotate(15 140 140)"/>
+  <rect x="960" y="60" width="150" height="150" rx="8" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2" transform="rotate(-10 1035 135)"/>
+  <circle cx="300" cy="380" r="60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <circle cx="900" cy="400" r="80" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="2"/>
+  <polygon points="1100,200 1140,280 1060,280" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <polygon points="100,320 140,400 60,400" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- Shield icon (government) -->
+  <path d="M560 120 L600 100 L640 120 L640 180 C640 220 600 250 600 250 C600 250 560 220 560 180 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <!-- Horizontal lines (digital/data) -->
+  <line x1="200" y1="200" x2="400" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="800" y1="180" x2="1000" y2="180" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="250" y1="250" x2="450" y2="250" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="750" y1="240" x2="950" y2="240" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <!-- Dots pattern -->
+  <circle cx="500" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="520" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="540" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="660" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="680" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="700" cy="100" r="3" fill="rgba(255,255,255,0.12)"/>
+  <!-- House icon -->
+  <path d="M700 340 L740 310 L780 340 L780 400 L700 400 Z" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <rect x="730" y="360" width="20" height="40" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+  <!-- Connection lines (network) -->
+  <line x1="150" y1="150" x2="350" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="850" y1="150" x2="1050" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>

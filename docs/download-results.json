@@ -1,0 +1,56 @@
+[
+  {
+    "file": "family/family-together.webp",
+    "raw": 182098,
+    "optimized": 50520,
+    "max_w": 800
+  },
+  {
+    "file": "family/family-portrait.webp",
+    "raw": 292202,
+    "optimized": 112562,
+    "max_w": 600
+  },
+  {
+    "file": "city/kigali-skyline.webp",
+    "raw": 214072,
+    "optimized": 176444,
+    "max_w": 1200
+  },
+  {
+    "file": "city/kigali-district.webp",
+    "raw": 219488,
+    "optimized": 74126,
+    "max_w": 800
+  },
+  {
+    "file": "government/professional-woman.webp",
+    "raw": 213461,
+    "optimized": 31948,
+    "max_w": 800
+  },
+  {
+    "file": "legal/lawyer-documents.webp",
+    "raw": 5785952,
+    "optimized": 34406,
+    "max_w": 800
+  },
+  {
+    "file": "team/team-collaboration.webp",
+    "raw": 9826706,
+    "optimized": 83562,
+    "max_w": 1200
+  },
+  {
+    "file": "hero/hero-family.webp",
+    "raw": 182098,
+    "optimized": 92356,
+    "max_w": 1400
+  },
+  {
+    "file": "hero/hero-family-sm.webp",
+    "raw": 0,
+    "optimized": 37648,
+    "max_w": 768
+  }
+]

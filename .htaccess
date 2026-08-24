@@ -1,0 +1,25 @@
+# R-DEIP Root .htaccess
+# Routes all traffic through public/
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Route all requests into public/ directory
+    # This .htaccess is in the project root (e.g., htdocs/r-deip/)
+    # The RewriteRule is relative to this directory
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes
+
+# Deny access to sensitive dotfiles
+<FilesMatch "^\.(env|htaccess|htpasswd|git|svn|txt|yml|yaml|json|lock|md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Deny direct access to application internals
+<IfModule mod_rewrite.c>
+    RewriteRule ^(config|app|database|storage|routes|lang|tests|docs)\b - [F,L]
+</IfModule>

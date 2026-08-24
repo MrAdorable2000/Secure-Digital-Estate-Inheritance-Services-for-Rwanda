@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gbg)"/>
+  <rect x="0" y="0" width="800" height="600" fill="#004D40" opacity="0.03"/>
+  <path d="M400 170 L520 230 L520 370 L280 370 L280 230Z" fill="#00695C" opacity="0.8"/>
+  <path d="M400 150 L530 215 L530 380 L270 380 L270 215Z" fill="none" stroke="#1B5E20" stroke-width="2" opacity="0.3"/>
+  <path d="M400 140 L540 210 L540 390 L260 390 L260 210Z" fill="none" stroke="#1B5E20" stroke-width="1" opacity="0.15"/>
+  <rect x="370" y="210" width="60" height="50" rx="2" fill="#E0F2F1" opacity="0.6"/>
+  <rect x="300" y="280" width="40" height="40" rx="2" fill="#E0F2F1" opacity="0.5"/>
+  <rect x="380" y="280" width="40" height="40" rx="2" fill="#E0F2F1" opacity="0.5"/>
+  <rect x="460" y="280" width="40" height="40" rx="2" fill="#E0F2F1" opacity="0.5"/>
+  <rect x="390" y="340" width="20" height="50" rx="1" fill="#004D40" opacity="0.7"/>
+  <circle cx="400" cy="180" r="8" fill="#F9A825" opacity="0.7"/>
+  <text x="400" y="460" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="bold" fill="#004D40" opacity="0.75">Government Services</text>
+  <rect x="310" y="478" width="180" height="2" rx="1" fill="#F9A825" opacity="0.4"/>
+</svg>
